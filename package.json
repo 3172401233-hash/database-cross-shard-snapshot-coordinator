@@ -1,0 +1,12 @@
+{
+  "name": "database-cross-shard-snapshot-coordinator",
+  "version": "1.0.0",
+  "description": "跨分片一致快照协调器：基于多数派确认边界计算共同可恢复点与每片读取计划",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
